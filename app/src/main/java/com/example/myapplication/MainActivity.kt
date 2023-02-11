@@ -46,10 +46,9 @@ class MainActivity : AppCompatActivity() {
         // set on-click listener
         btn_click_me.setOnClickListener {
             Log.e(TAG, "This is an error log")
-            val intent = Intent(this, SecondFragment::class.java)
+            val intent = Intent(this, SecondActivity::class.java)
             startActivity(intent)
         }
-
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
