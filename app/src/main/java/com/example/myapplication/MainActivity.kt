@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
         // set on-click listener
         btn_click_me.setOnClickListener {
             Log.e(TAG, "This is an error log")
-            val intent = Intent(this, SecondActivity::class)
+            val intent = Intent(this, SecondFragment::class.java)
             startActivity(intent)
         }
 
