@@ -25,29 +25,19 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        setSupportActionBar(binding.toolbar)
-
-        val navController = findNavController(R.id.nav_host_fragment_content_main)
-        appBarConfiguration = AppBarConfiguration(navController.graph)
-        setupActionBarWithNavController(navController, appBarConfiguration)
-
-        binding.fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                    .setAction("Action", null).show()
-        }
         val TAG = "MainActivity"
         Log.v(TAG, "This is a verbose log.")
         Log.d(TAG, "This is debug log")
         Log.i(TAG, "This is a info log")
         Log.w(TAG, "This is warn log")
 
-
-        val btn_click_me = findViewById(R.id.button5) as Button
+        val btn_click_me = findViewById(R.id.btn_send) as Button
         // set on-click listener
         btn_click_me.setOnClickListener {
             Log.e(TAG, "This is an error log")
             val intent = Intent(this, SecondActivity::class.java)
             startActivity(intent)
+
         }
     }
 
