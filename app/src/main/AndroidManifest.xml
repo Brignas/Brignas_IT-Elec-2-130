@@ -12,14 +12,23 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".ListActivity"
+            android:name=".my_list"
+            android:exported="false" />
+        <activity
+            android:name=".activity_list_1"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+        <activity
+            android:name=".ListActivity"
+            android:exported="false"/>
+
+
         <activity
             android:name=".SecondActivity"
             android:exported="false" />
@@ -27,8 +36,7 @@
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.MyApplication.NoActionBar">
-        </activity>
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
     </application>
 
 </manifest>
