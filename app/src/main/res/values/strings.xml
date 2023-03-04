@@ -12,4 +12,15 @@
     <string name="to">To</string>
     <string name="subject">Subject</string>
     <string name="message">Message</string>
+
+    <string name="selected_item">Selected item:</string>
+    <string-array name="Languages">
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>Swift</item>
+        <item>Python</item>
+        <item>Scala</item>
+        <item>Perl</item>
+    </string-array>
+
 </resources>
