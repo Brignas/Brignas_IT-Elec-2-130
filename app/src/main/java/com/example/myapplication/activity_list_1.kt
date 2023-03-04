@@ -8,7 +8,7 @@ import android.widget.ArrayAdapter
 import android.widget.ListView
 import android.widget.Toast
 
-var array = arrayOf("Nmax","Aerox","Mio i 125","PCX","ADB","Click 150","Beat","Raider 15", "Sniper 150")
+var array = arrayOf("Nmax","Aerox","Mio i 125","PCX","ADB","Click 150","Beat","Raider 15", "Sniper 150", "Sniper 155")
 class activity_list_1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
