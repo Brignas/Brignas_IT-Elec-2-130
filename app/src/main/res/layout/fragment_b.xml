@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:textSize="100px"
-        android:text="FRAGMENT B" />
+        android:text="FRAGMENT B"
+        android:background="@color/cardview_light_background"/>
 
 </FrameLayout>

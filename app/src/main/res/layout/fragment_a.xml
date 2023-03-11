@@ -10,6 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:textSize="100px"
-        android:text="FRAGMENT A" />
+        android:text="FRAGMENT A"
+        android:textColor="@color/white"
+        android:background="@color/black"/>
 
 </FrameLayout>
