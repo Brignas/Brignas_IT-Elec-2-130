@@ -2,9 +2,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.myapplication.MainActivity">
+    <item android:title="Refresh"
+        android:id="@+id/refresh"
+        android:orderInCategory="104"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_refresh"/>
+    <item android:title="Search"
+        android:id="@+id/search"
+        android:orderInCategory="104"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_search"/>
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/copy"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="copy"
         app:showAsAction="never" />
 </menu>
