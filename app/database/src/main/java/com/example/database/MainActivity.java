@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
         dbHelper.deleteAllData();
 
         // Insert data
-        dbHelper.insertData("John", 25);
-        dbHelper.insertData("Luke", 24);
+        dbHelper.insertData("Rian Dave", 21);
+        dbHelper.insertData("Croy Pixel", 24);
 
         // Get data
         getData();
@@ -51,8 +51,8 @@ public class MainActivity extends AppCompatActivity {
 
         // Save values to shared preferences
         SharedPreferences.Editor editor = prefs.edit();
-        editor.putString("name", "John");
-        editor.putInt("age", 26);
+        editor.putString("name", "Rian Dave");
+        editor.putInt("age", 21);
         editor.putBoolean("is_student", true);
         editor.commit();
 
