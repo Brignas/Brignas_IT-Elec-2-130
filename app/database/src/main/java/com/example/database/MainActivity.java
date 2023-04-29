@@ -93,7 +93,6 @@ public class MainActivity extends AppCompatActivity {
 
         Log.d("MainActivity", "========= END =========");
     }
-//hehehe
     @Override
     protected void onDestroy() {
         super.onDestroy();
